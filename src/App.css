@@ -1,0 +1,120 @@
+/* Home.css */
+/* *{
+  display: flex;
+  justify-content: center;
+} */
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: 280px 280px 280px 280px;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+li img {
+  width: 170px;
+  height: 70px;
+  margin-left: 10px;
+}
+/* DetailsCountry.css */
+
+/* Center the content on the page vertically and horizontally using flexbox */
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure full viewport height */
+  background-color: #f2f2f2; /* Background color for the entire page */
+}
+.all{
+  width: 1200px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+.loadingall{
+  width: 1200px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+/* Style the country details container */
+.country-details {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  max-width: 90%;
+  text-align: center; /* Center text within the container */
+}
+
+/* Style the country image */
+.country-image {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+/* Style the country name */
+.country-name {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Style additional country details */
+.country-info {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+/* Loading.css */
+
+/* Container for the loading dots */
+.loading-container {
+  
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* Individual loading dot styles */
+.loading-dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(238, 22, 22, 0.6);
+  border-radius: 50%;
+  margin: 0 5px;
+  animation: dot-fade 1.5s infinite;
+}
+
+/* Keyframes animation definition */
+@keyframes dot-fade {
+  0%, 100% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+}
+
